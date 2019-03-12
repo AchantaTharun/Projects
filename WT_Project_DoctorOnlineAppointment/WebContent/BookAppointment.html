@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<a href="LogoutPatient">Logout</a>|
+<a href="WelcomePatient">Home</a>|
+<a href="PatientProfile">Profile</a>
+<hr>
+<form action="SearchDoctor" method="get">
+Search Doctor<br>
+Specialization<select name="d_spec">
+<option value="Cardiologist">Cardiologist</option>
+<option value="Dermatologist">Dermatologist</option>
+<option value="Endocrinologist">Endocrinologist</option>
+<option value="Physician">Physician</option>
+<option value="Surgeon">Surgeon</option>
+<option value="Neurologist">Neurologist</option>
+<option value="Radiologist">Radiologist</option>
+</select><br>
+Select Days Available:<br>
+<input type="checkbox" name="aDays" value="0">Monday  
+<input type="checkbox" name="aDays" value="1">Tuesday  
+<input type="checkbox" name="aDays" value="2">Wednesday  
+<input type="checkbox" name="aDays" value="3">Thursday   
+<input type="checkbox" name="aDays" value="4">Friday  
+<input type="checkbox" name="aDays" value="5">Saturday   
+<input type="checkbox" name="aDays" value="6">Sunday  <br>
+<input type="submit" value="Search">
+</form>
+</body>
+</html>

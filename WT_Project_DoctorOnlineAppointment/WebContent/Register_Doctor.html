@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="SignUpDoctor" method="post">
+Doctor Registration<br>
+Enter details below <br>
+Name<input type="text" name="d_name"><br>
+Password<input type="password" name="d_pword"><br>
+Re-enter Password <input type="password" name="d_pword1"><br>
+Specialization<select name="d_spec">
+<option value="Cardiologist">Cardiologist</option>
+<option value="Dermatologist">Dermatologist</option>
+<option value="Endocrinologist">Endocrinologist</option>
+<option value="Physician">Physician</option>
+<option value="Surgeon">Surgeon</option>
+<option value="Neurologist">Neurologist</option>
+<option value="Radiologist">Radiologist</option>
+</select><br>
+Select Days Available:<br>
+<input type="checkbox" name="aDays" value="0">Monday  
+<input type="checkbox" name="aDays" value="1">Tuesday  
+<input type="checkbox" name="aDays" value="2">Wednesday  
+<input type="checkbox" name="aDays" value="3">Thursday   
+<input type="checkbox" name="aDays" value="4">Friday  
+<input type="checkbox" name="aDays" value="5">Saturday   
+<input type="checkbox" name="aDays" value="6">Sunday  <br>
+Hospital<input type="text" name="d_hospital"><br>
+E-mail<input type="text" name="d_mail"><br>
+Phone<input type="text" name="d_phone"><br>
+Address <textarea rows="3" cols="30" name="d_address"></textarea><br>
+Age<input type="text" name="d_age"><br>
+Sex<select name="sex">
+<option value="m">Male</option>
+<option value="f">Female</option>
+</select><br>
+<input type="submit" value="Sign up">
+</form>
+</body>
+</html>
